@@ -29,7 +29,7 @@ public class RegistrationTests extends TestBase {
 
         User user = new User()
                 .setFirstName("Lisa")
-                .setLastname("Snow")
+                .setLastName("Snow")
                 .setEmail("snow"+i+"@gmail.com")
                 .setPassword("Ssnow12345$");
 
@@ -46,7 +46,7 @@ public class RegistrationTests extends TestBase {
     public void registrationEmptyName(){
         User user = new User()
                 .setFirstName("")
-                .setLastname("Snow")
+                .setLastName("Snow")
                 .setEmail("snow@gmail.com")
                 .setPassword("Ssnow12345$");
 
@@ -63,7 +63,7 @@ public class RegistrationTests extends TestBase {
     public void registrationEmptyLastName(){
         User user = new User()
                 .setFirstName("Lisa")
-                .setLastname("")
+                .setLastName("")
                 .setEmail("snow@gmail.com")
                 .setPassword("Ssnow12345$");
 
@@ -80,7 +80,7 @@ public class RegistrationTests extends TestBase {
     public void registrationWrongEmail(){
         User user = new User()
                 .setFirstName("Lisa")
-                .setLastname("Snow")
+                .setLastName("Snow")
                 .setEmail("snowgmail.com")
                 .setPassword("Ssnow12345$");
 
@@ -97,7 +97,7 @@ public class RegistrationTests extends TestBase {
     public void registrationWrongPassword(){
         User user = new User()
                 .setFirstName("Lisa")
-                .setLastname("Snow")
+                .setLastName("Snow")
                 .setEmail("snow@gmail.com")
                 .setPassword("Ssnow123");
 
@@ -114,7 +114,7 @@ public class RegistrationTests extends TestBase {
     public void registrationEmptyEmailField(){
         User user = new User()
                 .setFirstName("Lisa")
-                .setLastname("Snow")
+                .setLastName("Snow")
                 .setEmail("")
                 .setPassword("Ssnow12345$");
 
@@ -131,7 +131,7 @@ public class RegistrationTests extends TestBase {
     public void registrationEmptyPasswordField(){
         User user = new User()
                 .setFirstName("Lisa")
-                .setLastname("Snow")
+                .setLastName("Snow")
                 .setEmail("snow@gmail.com")
                 .setPassword("");
 

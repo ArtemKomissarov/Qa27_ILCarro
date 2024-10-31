@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="34f3f180-2fcd-4770-88b3-08b52232dda6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +73,7 @@
     "Gradle.RegistrationTests.executor": "Run",
     "Gradle.RegistrationTests.registrationSuccess.executor": "Run",
     "Gradle.addNewCarTests.addNewCarSuccess.executor": "Run",
+    "Gradle.addNewCarTests.addNewCarSuccessReq.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -77,7 +81,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.RegistrationTests">
+  <component name="RunManager" selected="Gradle.RegistrationTests.registrationSuccess">
     <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,30 +96,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.LoginTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginTests.loginSuccess1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.LoginTests.loginSuccess1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -198,13 +178,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="addNewCarTests.addNewCarSuccessReq" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.addNewCarTests.addNewCarSuccessReq&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationTests" />
-        <item itemvalue="Gradle.addNewCarTests.addNewCarSuccess" />
         <item itemvalue="Gradle.RegistrationTests.registrationSuccess" />
+        <item itemvalue="Gradle.addNewCarTests.addNewCarSuccessReq" />
+        <item itemvalue="Gradle.addNewCarTests.addNewCarSuccess" />
+        <item itemvalue="Gradle.RegistrationTests" />
         <item itemvalue="Gradle.LoginTests" />
-        <item itemvalue="Gradle.LoginTests.loginSuccess1" />
       </list>
     </recent_temporary>
   </component>
