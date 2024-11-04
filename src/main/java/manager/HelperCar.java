@@ -74,7 +74,7 @@ public class HelperCar extends HelperBase{
         click(By.cssSelector("div.pac-item"));
     }
 
-    public boolean isListCarsAppeared() {
+    public boolean  isListCarsAppeared() {
         return isElementPresent(By.cssSelector("a.car-container"));
     }
 
